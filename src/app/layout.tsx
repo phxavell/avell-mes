@@ -31,10 +31,8 @@ export default function RootLayout({
           "min-h-screen bg-background font-sans antialiased",
           `${geistSans.variable} ${geistMono.variable} antialiased`
         )}>
-        <Sidebar />
         {children}
       </body>
     </html>
   );
 }
-
